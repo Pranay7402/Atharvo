@@ -78,7 +78,11 @@ Open a web browser and navigate to http://127.0.0.1:5000/. You will see an inter
 
 ## File Structure
 **app.py:** Flask application script.
+
 **models/:** Directory containing the saved models and preprocessor.
+
 **data/:** Directory where the dataset is located.
+
 **templates/:** Directory containing HTML templates for the web application.
+
 **requirements.txt:** List of required Python packages.
