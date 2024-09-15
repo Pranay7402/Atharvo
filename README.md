@@ -56,21 +56,20 @@ A Flask web application is used to make predictions. The application allows user
    ```bash
    git clone https://github.com/Pranay7402/Atharvo.git
    cd Atharvo
-
+  
 2. **Install Dependencies:**
 
 Make sure you have Flask and other required packages installed. You can install them using pip:
 
    ```bash
    pip install -r requirements.txt
-
+  ```
 3. **Run the Flask Application:**
 
 Start the Flask application with the following command:
-
-   ```bash
+```bash
    python app.py
-
+```
 The application will start running on http://127.0.0.1:5000/.
 
 4. **Access the Web Interface:**
@@ -78,8 +77,8 @@ The application will start running on http://127.0.0.1:5000/.
 Open a web browser and navigate to http://127.0.0.1:5000/. You will see an interface where you can upload a CSV file and get predictions.
 
 ## File Structure
-app.py: Flask application script.
-models/: Directory containing the saved models and preprocessor.
-data/: Directory where the dataset is located.
-templates/: Directory containing HTML templates for the web application.
-requirements.txt: List of required Python packages.
+**app.py:** Flask application script.
+**models/:** Directory containing the saved models and preprocessor.
+**data/:** Directory where the dataset is located.
+**templates/:** Directory containing HTML templates for the web application.
+**requirements.txt:** List of required Python packages.
